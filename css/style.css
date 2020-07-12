@@ -1,0 +1,326 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+    font-family: georgia;
+   color: #747474;
+}
+a:hover{
+  text-decoration: none;
+}
+/*Welcome Section Css Start*/
+
+.welcome{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.navbarContainer{
+  background-image: url(../images/headerbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.navBar{
+    margin-left: auto;
+}
+.navBar ul{
+margin-bottom: 0px;
+}
+.navBar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.navBar li img{
+
+}
+.extraCssNav a{
+  color: black;
+}
+.logoText{
+  font-size: 20px;
+  font-style: italic;
+  color:black;
+      margin-bottom: 0px;
+}
+
+.caroselContainer{
+  width: 100%;
+  height: 100%;
+
+
+}
+/*Welcome Section Css end*/
+
+
+/*Service Section Css Start*/
+.service{
+  width: 100%;
+  height: 100%;
+  margin-top:15px;
+
+}
+.ServiceRow1Col p{
+  
+font-size: 25px;
+}
+.ServiceRow1Col h1 {
+    font-size: 60px;
+}
+
+.ServiceRow2{
+margin-top: 60px;   
+}
+.colService{
+  text-align: left;
+  border: 0px;
+}
+.colService img{
+  margin-right: 10px;
+  padding-top:7px;
+}
+.colService h5{
+    color: #464646;
+    font-size: 27px;
+    padding-right: 40px;
+  }
+.colService p{
+  color: #717171;
+  font-size: 16px;
+
+}
+.CaroselComments{
+  background-color: #0000007d;
+  right:0%;
+  left:0%;
+  bottom: 3px;
+}
+
+/*Service Section Css End*/
+
+
+/*portfolioSection Css Start*/
+
+
+.portfolio{
+    background-image: url(../images/portfoliobg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0px;
+}
+
+
+/*portfolio Section Css End*/
+
+
+
+/* Get In Touch Section Css Start*/
+
+.getInTouch{
+    width: 100%;
+  height: 100%;
+  padding: 30px 0px;
+}
+.mediaBody{
+  text-align: left;
+}
+.mediaFooter{
+  text-align: left;
+
+}
+input.form-control.inputExtra {background-color: #ebebeb;border: 0px;font-style: italic; }
+
+textarea#exampleFormControlTextarea1 {
+    background-color: #ebebeb;
+    border: 0px;
+    font-style: italic;
+}
+input::placeholder {
+  color: #878787!important;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #878787!important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #878787!important;
+}
+
+::placeholder {
+  color: #878787!important;
+}
+.btnSendMsg button{
+     background-color: #ebebeb;
+    color: #878787;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 15px 60px;
+
+}
+.getInTouchRow1{
+  margin-bottom: 30px;
+}
+
+
+/* Get In Touch Section Css End*/
+
+/*footer section css start*/
+
+.footer .container{
+      width: 100%;
+  height: 100%;
+  padding: 15px 0px;
+  border-top: 1px solid #ebebeb;
+}
+.footerText ul{
+margin-bottom: 0px;
+}
+.footerText li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.floatFooterLeft {
+    text-align: left;
+}
+..floatFooterRight {
+    text-align: right;
+}
+/*footer section css start*/
+
+
+
+/*Media Query Starts*/
+@media  (max-width: 330.98px) { 
+.logoText{
+  font-size: 9px;
+}
+.ServiceRow2 {
+    margin-top: 20px;
+}
+.ServiceRow1Col p {
+    font-size: 15px;
+}
+.ServiceRow1Col h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.colService h5 {
+    color: #464646;
+    font-size: 20px;
+    padding-right: 40px;
+}
+.colService p {
+    color: #717171;
+    font-size: 12px;
+}
+.colService img {
+    padding-top: 5px;
+}
+.media {
+    display:block;
+    text-align: center;
+}
+.testimonialObjectsH4 {
+    font-size: 19px;
+}
+.testimonialObjectsP {
+    font-size: 12px;
+}
+.floatFooterLeft {
+    text-align: center;
+}
+..floatFooterRight {
+    text-align: center;
+}
+.footer .container{
+  padding: 10px 0px;
+}
+.footerText p {
+    font-size: 12px;
+}
+.btnSendMsg {
+    text-align: center;
+}
+.mediaBody{
+  text-align: center;
+}
+.mediaFooter{
+  text-align: center;
+
+}
+}
+
+
+@media (min-width: 331px) and (max-width: 575.98px) { 
+
+
+.logoText{
+  font-size: 14px;
+    font-weight: bold;
+}
+.ServiceRow1Col p {
+    font-size: 15px;
+}
+.ServiceRow2 {
+    margin-top: 20px;
+}
+.ServiceRow1Col h1 {
+    font-size: 23px;
+    font-weight: bold;
+}
+.colService h5 {
+    color: #464646;
+    font-size: 20px;
+    padding-right: 40px;
+}
+.colService p {
+    color: #717171;
+    font-size: 12px;
+}
+.colService img {
+    padding-top: 5px;
+}
+.media {
+    display:block;
+    text-align: center;
+}
+.testimonialObjectsH4 {
+    font-size: 19px;
+}
+.testimonialObjectsP {
+    font-size: 12px;
+}
+.floatFooterLeft {
+    text-align: center;
+}
+..floatFooterRight {
+    text-align: center;
+}
+.footer .container{
+  padding: 10px 0px;
+}
+.footerText p {
+    font-size: 12px;
+}
+.btnSendMsg {
+    text-align: center;
+}
+.mediaBody{
+  text-align: center;
+}
+.mediaFooter{
+  text-align: center;
+
+}
+}
+
+/*Media Query Ends*/

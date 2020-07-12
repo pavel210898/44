@@ -1,0 +1,55 @@
+/*Media Query Starts*/
+
+
+
+@media (max-width: 575.98px) { 
+
+/*Welcome Section Css Start*/
+.welcome{
+  padding: 0px;
+}
+.rowCarosel{
+  margin-top: 10px;
+}
+
+/*Welcome Section Css End*/
+
+/*Service Section Css Start*/
+
+.colService{
+  width: 100%!important;
+}
+
+/*Service Section Css End*/
+
+}
+
+/*Latest Work Section Css Start*/
+.latestWorkHeading span {
+  font-size: 20px;
+}
+
+.latestWorkCard {
+    width: 100%!important;
+
+}
+/*Latest Work Section Css End*/
+
+
+ /* Footer Section Css Start*/
+
+.floatFooterRight{
+  text-align: center;
+}
+.floatFooterLeft{
+  text-align: center;
+
+}
+.footerText p{
+  margin-bottom: 10px;
+  }
+ /* Footer Section Css End*/
+
+
+
+/*Media Query Ends*/
